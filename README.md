@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/emadef1/ProDER/tree/main">
-    <img src="Figures/SQS_logo_simple.svg" alt="Logo" width="500" height="500">
+    <img src="Figures/logo.png" alt="Logo" width="500" height="500">
   </a>
 
   <h1 align="center"></h1>
