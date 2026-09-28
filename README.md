@@ -38,8 +38,15 @@
 Please, cite this work when referring to the paper.
 
 ```
-???
-
+@misc{efatinasab2026prodercontinuallearningapproach,
+      title={ProDER: A Continual Learning Approach for Fault Prediction in Evolving Smart Grids}, 
+      author={Emad Efatinasab and Nahal Azadi and Davide Dalle Pezze and Gian Antonio Susto and Chuadhry Mujeeb Ahmed and Mirco Rampazzo},
+      year={2026},
+      eprint={2511.05420},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2511.05420}, 
+}
 ```
 <div id="abstract"></div>
 
