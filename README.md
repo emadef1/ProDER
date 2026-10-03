@@ -38,14 +38,23 @@
 Please, cite this work when referring to the paper.
 
 ```
-???
-
+@misc{efatinasab2026prodercontinuallearningapproach,
+      title={ProDER: A Continual Learning Approach for Fault Prediction in Evolving Smart Grids}, 
+      author={Emad Efatinasab and Nahal Azadi and Davide Dalle Pezze and Gian Antonio Susto and Chuadhry Mujeeb Ahmed and Mirco Rampazzo},
+      year={2026},
+      eprint={2511.05420},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2511.05420}, 
+}
 ```
 <div id="abstract"></div>
 
 ## 🧩 Abstract
 
->As smart grids evolve, fault diagnosis models need to adapt to new fault types and changing operating conditions without being retrained from scratch whenever new data become available. Continual learning offers a suitable framework for this setting, although catastrophic forgetting remains an important challenge, especially when only a limited amount of past data can be stored. In this work, we consider four fault classification and localization scenarios based on class-incremental and domain-incremental learning and propose Prototype-based Dark Experience Replay (ProDER). ProDER extends replay-based continual learning by combining temperature-scaled logit distillation with prototype-based attraction and repulsion losses and a prototype-aware strategy for selecting replay samples. We compare ProDER with several regularization and replay-based continual learning methods using five random seeds. Across the four scenarios, ProDER obtains mean accuracies of 0.461, 0.442, 0.510, and 0.914, respectively, giving accuracy gaps of 0.058, 0.078, 0.010, and $-0.018$ with respect to Joint Training. ProDER also maintains the highest accuracy among the evaluated replay methods when the replay budget is reduced. Overall, the results show that combining prototype-based representation constraints with replay can improve knowledge retention under both class and domain-incremental changes while keeping the replay memory bounded.
+>Data-driven fault-diagnosis models for smart grids are usually trained once on a fixed dataset, whereas in operation new fault types appear and monitoring is extended to new grid zones. Retraining from scratch on all accumulated data is costly, while naively updating the model on new data causes catastrophic forgetting.
+To address this problem, we formulate fault-type classification and fault-zone localization as continual learning (CL) problems and design four evaluation scenarios on the IEEE 13-node test feeder, three class-incremental and one domain-incremental. We then propose Prototype-based Dark Experience Replay (ProDER), which extends DER++ with prototype attraction and prototype-level repulsion losses that stabilize the feature space, temperature-scaled logit distillation, and a prototype-aware replay memory that retains both core and boundary samples of each class.
+ProDER achieves the highest accuracy among the tested CL methods in all scenarios, with an average accuracy of 58.2\%, 6.6 points above the strongest competing method (DPDMR, 51.6\%) and only 3.2 points below joint training (61.4\%). Per scenario, it improves over the strongest competitor by 4.2 to 7.4 points and closes the gap to joint training to as little as 1.0 point in fault-type classification, while matching it in fault-zone localization. Moreover, it remains the best method when the replay buffer is substantially reduced. These results show that prototype-guided replay is an effective, memory-bounded way to keep fault-diagnosis models up to date as the grid evolves, while validation on field measurements remains a necessary next step.
 
 <p align="right"><a href="#top">(back to top)</a></p>
 <div id="usage"></div>
