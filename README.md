@@ -15,7 +15,7 @@
     <a href="???"><strong>Paper Revised in Neural Computing and Applictions»</strong></a>
     <br />
     <br />
-    <a href="https://www.dei.unipd.it/persona/1373bd29c9ef0140e39d53ec9add14d2">Emad Efatinasab</a>
+    <!-- <a href="https://www.dei.unipd.it/persona/1373bd29c9ef0140e39d53ec9add14d2">Emad Efatinasab</a>
     ·
     <a href="https://scholar.google.com/citations?user=VG_xT0YAAAAJ&hl=en">Nahal Azadi</a>
     .
@@ -25,7 +25,7 @@
     .
     <a href="https://www.ncl.ac.uk/computing/people/profile/mujeebahmed.html">Chuadhry Mujeeb Ahmed</a>
     .
-    <a href="https://www.dei.unipd.it/persona/95DDDDA0C518D43822ADC0338BD38073">Mirco Rampazzo</a>
+    <a href="https://www.dei.unipd.it/persona/95DDDDA0C518D43822ADC0338BD38073">Mirco Rampazzo</a> -->
     .
   </p>
 </div>
@@ -38,15 +38,7 @@
 Please, cite this work when referring to the paper.
 
 ```
-@misc{efatinasab2026prodercontinuallearningapproach,
-      title={ProDER: A Continual Learning Approach for Fault Prediction in Evolving Smart Grids}, 
-      author={Emad Efatinasab and Nahal Azadi and Davide Dalle Pezze and Gian Antonio Susto and Chuadhry Mujeeb Ahmed and Mirco Rampazzo},
-      year={2026},
-      eprint={2511.05420},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2511.05420}, 
-}
+???
 ```
 <div id="abstract"></div>
 
